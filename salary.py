@@ -13,7 +13,7 @@ mind = LinearRegression()
 mind.fit(X ,Y )
 
 # Predicts the output using this file
-print("***************************WELCOME***********************")
+print("***************************WELCOME***********************".center(125))
 print(" ")
 print(" ")
 output = int(input("Enter your exprerience : "))
