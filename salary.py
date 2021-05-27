@@ -4,7 +4,7 @@ import joblib
 
 from sklearn.linear_model import LinearRegression
 
-ds=pandas.read_csv("Salary_Data.csv")
+ds=pandas.read_csv("SalaryData.csv")
 
 X = ds["YearsExperience"].values.reshape(30,1)
 Y = ds["Salary"]
