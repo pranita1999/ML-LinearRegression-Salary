@@ -13,14 +13,14 @@ mind = LinearRegression()
 mind.fit(X ,Y )
 
 # Predicts the output using this file
-print("***************************WELCOME***********************".center(125))
+print("\n \t \t \t***************************WELCOME***********************"\n)
 print(" ")
 print(" ")
-output = int(input("Enter your exprerience : "))
+output = int(input("\t \t \tEnter your exprerience : "))
 
 ans=mind.predict([[output]])
 print(" ")
-print("\t \t \t|||||||||||||YOUR SALARY ||||||||||||||")
+print("|||||||||||||YOUR SALARY ||||||||||||||")
 print(ans)
 print(" ")
 
