@@ -20,7 +20,7 @@ output = int(input("Enter your exprerience : "))
 
 ans=mind.predict([[output]])
 print(" ")
-print("|||||||||||||YOUR ESTIMATED SALARY ||||||||||||||")
+print("\t \t \t|||||||||||||YOUR SALARY ||||||||||||||")
 print(ans)
 print(" ")
 
